@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class StatisticsServiceTest {
     @Test
-   public void findMax() {
+    public void findMax() {
         StatisticsService service = new StatisticsService();
         long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
         long expected = 12;
@@ -15,7 +15,7 @@ public class StatisticsServiceTest {
     }
 
     @Test
-    public void shouldFindMaxIfcurrentMax(){
+    public void shouldFindMaxIfcurrentMax() {
         StatisticsService service = new StatisticsService();
         long[] incomesInBillions = {1, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
         long expected = 12;
